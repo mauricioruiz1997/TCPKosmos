@@ -26,8 +26,8 @@ TCPTEST/
 
 ### Paso 1: Clonar el repositorio
 ```bash
-git clone https://github.com/tu-usuario/tu-proyecto.git
-cd TCPTEST
+git clone https://github.com/mauricioruiz1997/TCPKosmos.git
+cd TCPKosmos
 ```
 ### Paso 2: Entorno virtual
 ```bash
@@ -37,27 +37,31 @@ source venv/bin/activate    # MacOS/Linux
 ```
 
 ### Paso 3: Ejecutar el servidor
+* Abre una terminal
+
+* Navega al directorio del proyecto
+
+* Ejecuta el siguiente comando: 
 ```bash
 python server/server.py
 ```
+* El servidor mostrará: "Servidor TCP iniciado en localhost:5000"
+
 
 ### Paso 4: Ejecutar el cliente (en terminal aparte)
+* Abre otra terminal
+
+* Navega al directorio del proyecto
+
+* Ejecuta el siguiente comando: 
 ```bash
 python client/client.py
 ```
 
-## 🧪 Modo de Uso
+* Envia un mensaje
 
-### Envío de mensajes normales:
-```bash
-[Cliente]  Ingrese mensaje: hola mundo
-[Servidor] Respuesta: HOLA MUNDO
-```
-### Desconexión:
-```bash
-[Cliente]  Ingrese mensaje: DESCONEXION
-[Servidor] Conexión cerrada con ('127.0.0.1', 54322)
-```
+
+
 
 ## ⚠️ Consideraciones Importantes
 ```bash
